@@ -1,8 +1,8 @@
 {
-    "name": "python-rest-stub",
-    "description": "Simple REST server w Python/Flask/Heroku",
-    "repository": "https://github.com/nharada1/python-rest-stub",
-    "addons": ["mongolab"],
+    "name": "flux-monitor",
+    "description": "Monitor for Flux computing service",
+    "repository": "https://github.com/nharada1/flux-monitor",
+    "addons": ["mongolab", "mailgun"],
     "env": {
         "ON_HEROKU": {
             "description": "Should be True on Heroku",
